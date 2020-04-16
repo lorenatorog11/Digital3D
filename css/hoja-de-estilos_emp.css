@@ -7,13 +7,14 @@ body {
 }
 .borde {
     border: 1px solid black;
-    padding: 15px;  
+    padding: 15px; 
 }
 #cabecera {
     text-align: center;
 }
+
 #menu {
-    text-align: center;
+    text-align: center;    
 }
 #menu a{
     text-align: center;
@@ -36,20 +37,24 @@ body {
 #menu .menu_activo{
     background-color: orangered;
 }
-#sec_quien_soy {
-    display: flex;
+#se_quienes_somos {
+    display: inline-flex;
 }
-#sec_quien_soy #titulo_soy_dg{
+#se_quienes_somos #art_img img{
+    width: 100%;
+    overflow: visible;
+    text-align: center;
+}
+#se_quienes_somos #title_somos{
     margin-bottom: 1px;
 }
-
-#sec_quien_soy #small_soy_dg{
+#se_quienes_somos #small_tittle{
     font-size: 10px;
 }
-#sec_quien_soy #art_soy p {
+#se_quienes_somos #art_somos p{
     text-align: justify;
 }
-#sec_quien_soy #art_soy hr {
+#se_quienes_somos #art_somos hr {
     background-color: black;
     width: 20%;
     height: 1px;
@@ -57,58 +62,33 @@ body {
     transform: rotate(1deg);
     margin-left: 0px;
 }
-
-#sec_a_que_me_dedico {
+#sec_nuestro_equipo {
     color: white;
     background-color: #6fa8dc;
     text-align: center;
 }
-
-#sec_a_que_me_dedico h1 {
-    margin-bottom: 0px;
-}
-#sec_a_que_me_dedico hr {
+#sec_nuestro_equipo hr{
     background-color: white;
     width: 200px;
     height: 2px;
     border-radius: 50%;
-    transform: rotate(1deg);  
-} /*Pone la linea debajo del texto*/
-
-#sec_como_puedo_ayudar{
+    transform: rotate(1deg); 
+}
+#sec_empleados{
     text-align: center;
-
 }
-#sec_como_puedo_ayudar #sec_servicios{
-    display: flex;
-}
-#sec_como_puedo_ayudar #sec_servicios .art_t2{
-    margin-right: 15px;
-    margin-left: 15px;
-}
-#sec_como_puedo_ayudar #sec_servicios article{
-    background-color: #ff9800;
-    color: white;
-    border: 2px solid blue;
-}
-#sec_como_puedo_ayudar #sec_servicios article p {
-    text-align: justify;
-}
-#sec_herramientas{
-    text-align: center;
-    color: white;
-    background-color:#6fa8dc ;
-    justify-content: center;
-}
-#sec_herramientas table{
+#sec_empleados table {
     color: black;
-    background-color: white;  
     text-align: center;
-    margin: 0 auto;
-
+    margin: 0px auto;
+    width: 60%;
 }
-#sec_herramientas table tbody img{
-    width: 40%;
+
+#sec_empleados #table_head{
+    background-color: grey;
+}
+#sec_empleados #table_body{
+    background-color: #d9d7d7;
 }
 #pie_de_pagina{
     text-align: center;
